@@ -36,7 +36,7 @@ INFO_URL = "https://api.hyperliquid.xyz/info"
 POLYMARKET_URL = "https://gamma-api.polymarket.com/markets"
 
 # Execution — KEEP FALSE until you verify signals are real
-EXECUTION_ENABLED = False
+EXECUTION_ENABLED = True
 
 # ── Detection Thresholds ────────────────────────────────────────────────────────
 
