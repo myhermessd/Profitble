@@ -50,8 +50,8 @@ POLYMARKET_URL = "https://gamma-api.polymarket.com/markets"
 EXECUTION_ENABLED = False
 
 # ── Detection Thresholds ────────────────────────────────────────────────────────
-MIN_POSITION_USD       = 10_000_000   # $10M minimum
-MIN_LEVERAGE_TO_FLAG   = 5            # Ignore under 5x
+MIN_POSITION_USD       = 5_000_000   # $5M minimum
+MIN_LEVERAGE_TO_FLAG   = 2            # Ignore under 2x
 MAX_WALLET_AGE_HOURS   = 48           # Fresh wallet
 MIN_CONCENTRATION      = 0.80         # 80% of capital in one trade
 CLUSTER_WINDOW_SECONDS = 3600         # 60 min rolling window
@@ -73,13 +73,10 @@ CONSECUTIVE_LOSS_LIMIT  = 3
 
 # ── Geopolitical Watchlist ──────────────────────────────────────────────────────
 GEO_WATCHLIST = {
-    "WTI", "WTIOIL", "CL",
-    "BRENTOIL", "BRENT",
-    "XAU", "GOLD",
-    "XAG", "SILVER",
-    "NATGAS",
+    "WTI",
     "BTC",
     "ETH",
+    "GOLD",
 }
 
 
